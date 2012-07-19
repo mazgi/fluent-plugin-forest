@@ -3,7 +3,7 @@
 
 guard 'test' do
   # lib
-  watch(%r{^lib/fluent/plugin/(.+)\.rb$})
+  watch(%r{^lib/fluent/plugin/.+\.rb$})
   # test
   watch('test/helper.rb')
   watch(%r{^test/output/.+\.rb$})
